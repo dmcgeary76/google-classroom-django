@@ -1,0 +1,15 @@
+{% load static %}
+<!doc-type html>
+<html>
+  <head>
+    <title>GCPR</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'pages/css/style.css' %}">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  </head>
+  <body>
+    {% include 'topbar.html' %}
+    {% include 'navbar.html' %}
+    {% block content %}
+    {% endblock %}
+  </body>
+</html>

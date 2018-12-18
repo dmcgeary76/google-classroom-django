@@ -1,0 +1,92 @@
+/* Container */
+.top_container{
+  text-align: center;
+  max-width:1250px;
+  margin:0 30px;
+  overflow:hidden;
+  font-family: 'Pacifico', cursive;
+  font-size: 34px;
+  color: #035385;
+}
+
+.main_container{
+  text-align: left;
+  max-width:1250px;
+  overflow:hidden;
+  font-size: 16px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.report_container{
+  text-align: left;
+  max-width:850px;
+  margin:0 30px;
+  overflow:hidden;
+  font-size:14px;
+}
+
+@media only screen and (max-width:1330px){.container{margin:0 30px}}
+@media only screen and (max-width:500px){.container{margin:0 15px}}
+
+/* Fonts */
+.head1{font-family:'Pacifico', cursive; font-size: 34px; color: #0092e0;}
+
+/* Global Header Media Queries */
+@media only screen and (max-width:1330px){header{margin:100px 30px 50px!important}}
+@media only screen and (max-width:1050px){header{margin:80px 30px 20px!important}#header .banner{border-top:1px solid #eee;padding:30px 0 10px;text-align:center;margin:20px 0 0;width:100%}}
+@media only screen and (max-width:800px){#header .banner{display:none !important}}
+@media only screen and (max-width:500px){#header{margin:80px 15px 20px!important}}
+
+nav {
+  width: 100%;
+  background-color: #0b98de;
+  text-align: center;
+}
+
+nav a {
+    display: block;
+    float: left;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #b6dcf8;
+  border: 0px solid #000;
+  color: #005683;
+}
+
+
+#logo {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-right: 10px;
+  margin-top: 0px;
+}
+
+#profile {
+  padding-right: 40px;
+  float: right;
+}
+
+/* Give the Report Tables some style */
+th, td {
+  padding: 15px;
+  text-align: center;
+}
+
+.report_table {
+  margin:1em auto;
+}

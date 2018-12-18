@@ -1,0 +1,8 @@
+{% load static %}
+<nav class="main_container">
+  <a id="logo" href="/home"><img src='{% static "pages/plane.png" %}' width="40px"/></a>
+  {% for course in courses %}
+  <a href="/{{ course.shortname }}">{{ course.shortname }}</a>
+  {% endfor %}
+  <a id="profile" href="#">Profile</a>
+</nav>
