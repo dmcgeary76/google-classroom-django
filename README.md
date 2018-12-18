@@ -1,0 +1,2 @@
+# google-classroom-django
+The purpose of this project is to create a web interface for Google Classroom content.  The entire project will ultimately allow teachers or students to login through a google account, see a list of all course activities with prompts for graded items, items that need to be graded, or prompts to begin an exercise, and a simple mechanism to automating the delivery of email progress reports to students.
